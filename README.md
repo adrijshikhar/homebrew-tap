@@ -14,12 +14,12 @@ brew install adrijshikhar/tap/<formula>
 
 ## Available
 
-| Formula | Description |
-| --- | --- |
-| [`binsight`](https://github.com/adrijshikhar/binsight) | A local MySQL & MariaDB binlog viewer and analyzer for developers |
+| Package | Description | Repository |
+| --- | --- | --- |
+| [`aim`](https://github.com/adrijshikhar/aim) | Isolated Profile Manager & Multiplexer for AI Agents (Antigravity, Claude Code, Codex, Gemini) | [adrijshikhar/aim](https://github.com/adrijshikhar/aim) |
+| [`binsight`](https://github.com/adrijshikhar/binsight) | A local MySQL & MariaDB binlog viewer and analyzer for developers | [adrijshikhar/binsight](https://github.com/adrijshikhar/binsight) |
 
 ## Notes
 
-Casks and formulae here are generated and committed automatically by
-[GoReleaser](https://goreleaser.com) when a project cuts a release — edit the
-source project, not this repo.
+Casks and formulae here are generated and verified automatically by release
+pipelines when a project cuts a release.
