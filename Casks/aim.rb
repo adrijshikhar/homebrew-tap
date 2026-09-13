@@ -32,10 +32,4 @@ cask "aim" do
   end
 
   binary "aim"
-
-  postflight do
-    if system_command("/usr/bin/xattr", args: ["-h"]).exit_status == 0
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/aim"]
-    end
-  end
 end
